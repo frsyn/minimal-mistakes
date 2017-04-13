@@ -1,0 +1,146 @@
+{
+  "name": "frsyn/minimal-mistakes",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://mmistakes.github.io/minimal-mistakes/",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/frsyn/minimal-mistakes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/minimal-mistakes-theme",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "minimal-mistakes",
+      "subhead": "A responsive Jekyll theme with clean typography and support for large full page images.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "minimal-mistakes: A responsive Jekyll theme with clean typography and support for large full page images.",
+          "url": "https://mmistakes.github.io/minimal-mistakes/"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "frsyn",
+          "repo": "minimal-mistakes"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p><strong><a href=\"http://mmistakes.github.io/minimal-mistakes\">Minimal Mistakes</a></strong> is a two column responsive Jekyll theme perfect for powering your GitHub hosted blog. </p>\n<h2>Minimal Mistakes is all about:</h2>\n<ul>\n<li>Responsive templates. Looking good on mobile, tablet, and desktop.</li>\n<li>Gracefully degrading in older browsers. Compatible with Internet Explorer 8+ and all modern browsers. </li>\n<li>Minimal embellishments -- content first.</li>\n<li>Optional large feature images for posts and pages.</li>\n<li>Simple and clear permalink structure.</li>\n<li><a href=\"http://mmistakes.github.io/minimal-mistakes/404.html\">Custom 404 page</a> to get you started.</li>\n<li>Support for Disqus Comments</li>\n</ul>\n<p><img src=\"http://mmistakes.github.io/minimal-mistakes/images/mm-theme-post-600.jpg\"></p>\n<p>See a <a href=\"http://mmistakes.github.io/minimal-mistakes/\">live version of Minimal Mistakes</a> hosted on GitHub.</p>\n<h2>Getting Started</h2>\n<p>Minimal Mistakes takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.</p>\n<p>To learn how to install and use this theme check out the <a href=\"http://mmistakes.github.io/minimal-mistakes/theme-setup/\">Setup Guide</a> for more information.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/frsyn/minimal-mistakes",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/frsyn",
+          "text": "frsyn"
+        }
+      ]
+    }
+  ]
+}
